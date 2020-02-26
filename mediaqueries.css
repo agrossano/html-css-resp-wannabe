@@ -19,6 +19,7 @@
 
   #lezioni .row > .left, #lezioni .row > .right{
     width: 95%;
+    float: none;
   }
 
   #steps .row > .left,
@@ -34,3 +35,37 @@
 
 
 }
+
+/* media query screen > 420p < 768 */
+@media only screen and (max-width: 768px) {
+  .row {
+    width: 95%;
+    margin-top: 0px;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 95%;
+    float: none;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    float: none;
+    width: 100%;
+  }
+
+  #why .row > .first img,
+  #why .row > .second img,
+  #why .row > .third img {
+    margin-right: 30px;
+    width: 20%;
+    height: auto;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 95%;
+    float: none;
+  }
